@@ -1,107 +1,90 @@
-# MindVault – Personal Knowledge Management System 
+# MindVault
 
-MindVault is a **web-based application demo**, supported by a **basic Kotlin Android app**, that demonstrates how users can store information and interact with an AI-powered assistant through a simple interface.
+MindVault is a personal knowledge management demo with two interfaces:
 
----
+- A web demo for storing and querying information
+- A Kotlin Android app for mobile interaction flow
 
-## What we built
+The project is focused on concept validation, UI behavior, and learning outcomes.
 
-We built:
+## Overview
 
-- A **demo website** that allows users to store data and query it using an AI assistant
-- A **basic Android application (Kotlin)** to understand mobile UI flow and client-side interaction
-- A simple, clean interface focused on usability and clarity
+MindVault demonstrates a simple retrieval workflow:
 
-The website was exposed temporarily using **ngrok** for development and demonstration purposes.
+1. Store information
+2. Ask questions in natural language
+3. Receive AI-generated responses from stored context
 
----
+During development demos, the web interface was exposed with ngrok.
 
-## Demo interface
+## Key Features
 
-The website provides two main actions:
+- Data capture and retrieval demo flow
+- Simple AI-assisted query interface
+- Android client prototype in Kotlin (activity/XML based)
+- Clean UI-first approach for rapid iteration
 
-- **Store Data**  
-  Upload or submit information that can later be referenced.
+## Screenshots
 
-- **Query & Retrieve**  
-  Ask questions and receive AI-generated responses based on previously stored data.
+### Web UI
 
-A sample UI screenshot is shown below:
+<img width="1280" height="686" alt="MindVault Web UI" src="https://github.com/user-attachments/assets/28732caf-cebb-4b2d-8750-b5e9a0e4c782" />
 
-<img width="1280" height="686" alt="AI Chat Assistants UI" src="https://github.com/user-attachments/assets/28732caf-cebb-4b2d-8750-b5e9a0e4c782" />
-<img width="240" height="580" alt="image" src="https://github.com/user-attachments/assets/27c6e2b6-7e4a-4d6c-b7f3-67df46333a6f" />
-<img width="240" height="580" alt="image" src="https://github.com/user-attachments/assets/cd8b2eb2-70aa-4c8a-9714-ce578957f591" />
-<img width="240" height="580" alt="image" src="https://github.com/user-attachments/assets/663f8e03-4307-4c1a-95ea-b65403a358cf" />
+### Android UI
 
----
+<img width="240" height="580" alt="Android Screen 1" src="https://github.com/user-attachments/assets/27c6e2b6-7e4a-4d6c-b7f3-67df46333a6f" />
+<img width="240" height="580" alt="Android Screen 2" src="https://github.com/user-attachments/assets/cd8b2eb2-70aa-4c8a-9714-ce578957f591" />
+<img width="240" height="580" alt="Android Screen 3" src="https://github.com/user-attachments/assets/663f8e03-4307-4c1a-95ea-b65403a358cf" />
 
-## Android app (basic overview)
+## Android App Scope
 
-Along with the web demo, a **basic Android application** was built using:
+The Android module is intentionally lightweight and built to validate client-side UX:
 
-- **Kotlin**
-- Simple activity-based navigation
-- XML layouts for UI
-- Basic screens for interaction and testing
+- Kotlin + Android SDK
+- Activity-based navigation
+- XML layouts
+- Basic interaction/testing screens
 
-The Android app was created mainly to:
-- Learn Android app structure
-- Understand client-side interaction
-- Explore how a mobile interface can connect to an AI-powered system
+## Project Scope and Limits
 
-> The Android app code shared here does not expose any sensitive logic or service configuration.
+This repository intentionally does not include internal backend/AI workflow details, production deployment setup, or sensitive service configuration.
 
----
+## Local Run Guidance
 
-## How the demo works (high level)
+### Android
 
-- The frontend provides a simple interface for user interaction.
-- User inputs are sent to an AI service to generate responses.
-- **ngrok** was used to expose the local development server during testing.
+1. Open the repository in Android Studio.
+2. Sync Gradle dependencies.
+3. Run on emulator/device.
 
-> ⚠️ Internal logic, AI workflows, backend services, and configurations are **not included or described** in this repository.
+### Web Demo
 
----
+The original web demo setup is not fully packaged in this repository.
 
-## Running the demo (local)
+To reproduce a similar flow:
 
-This repository focuses on **demonstration and UI behavior**.
+1. Run a local web frontend.
+2. Connect your own AI service endpoint.
+3. Optionally expose locally using ngrok for testing.
 
-To run a similar demo locally:
-1. Set up a local web server of your choice.
-2. Connect it to an AI service endpoint (your own).
-3. Optionally expose it using a tunneling tool such as ngrok for testing.
+## Security
 
-No production or deployment instructions are included.
-
----
-
-## Security & privacy
-
-- This repository contains **no secrets, keys, or credentials**.
-- Any sensitive configuration should remain local and never be committed.
-- Do not upload real or personal data when testing demos.
-
----
-
-## Where to get help
-
-- General web development documentation
-- Android developer documentation
-- ngrok documentation: https://ngrok.com/docs
-- AI tooling documentation (provider of your choice)
-- GitHub Issues for questions related to this repository
-
----
+- No credentials should be committed.
+- Keep secrets in local environment/config only.
+- Use sanitized or non-personal test data.
 
 ## Contributing
 
-- Contributions are welcome for UI improvements or documentation clarity.
-- Please keep all changes **sanitized**.
-- Do not add internal logic, credentials, or service configurations.
+Contributions are welcome for:
 
----
+- UI improvements
+- Documentation clarity
+- Code organization
 
-Thank you for checking out MindVault.
+Please avoid adding secrets, internal service credentials, or private workflow details.
 
-This project is shared to demonstrate **concepts, UI behavior, and learning outcomes only**.
+## Support
+
+- [Android Developers](https://developer.android.com/docs)
+- [ngrok Docs](https://ngrok.com/docs)
+- GitHub Issues in this repository
