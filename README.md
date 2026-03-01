@@ -3,7 +3,7 @@
 MindVault is a personal knowledge management demo with two interfaces:
 
 - A web demo for storing and querying information
-- A Kotlin Android app for mobile interaction flow
+- A Kotlin Android app for mobile interaction
 
 The project is focused on concept validation, UI behavior, and learning outcomes.
 
