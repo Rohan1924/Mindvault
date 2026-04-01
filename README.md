@@ -30,19 +30,15 @@ MindVault demonstrates a simple workflow:
 ### 📱 Android UI
 
 <p align="center">
-  <img src="./Image1.jpeg" height="450">
+  <img src="./Image1.jpeg" width="32%">
+  <img src="./Image2.jpeg" width="32%">
+  <img src="./Image3.jpeg" width="32%">
 </p>
 
 <p align="center">
-  <img src="./Image2.jpeg" height="400">
-  <img src="./Image3.jpeg" height="400">
+  <img src="./Image4.jpeg" width="48%">
+  <img src="./Image5.jpeg" width="48%">
 </p>
-
-<p align="center">
-  <img src="./Image4.jpeg" height="400">
-  <img src="./Image5.jpeg" height="400">
-</p>
-
 ---
 
 ## 📱 Android App Scope
