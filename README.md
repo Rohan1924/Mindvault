@@ -35,7 +35,7 @@ During development demos, the web interface was exposed using **ngrok**.
 ### 🌐 Web UI
 
 <p align="center">
-  <img src="Image1.jpeg" alt="MindVault Web UI" width="80%">
+  <img src="Image1.jpeg" alt="MindVault Web UI" height="400">
 </p>
 
 ---
@@ -43,10 +43,10 @@ During development demos, the web interface was exposed using **ngrok**.
 ### 📱 Android UI
 
 <p align="center">
-  <img src="Image2.jpeg" width="22%">
-  <img src="Image3.jpeg" width="22%">
-  <img src="Image4.jpeg" width="22%">
-  <img src="Image5.jpeg" width="22%">
+  <img src="Image2.jpeg" height="400">
+  <img src="Image3.jpeg" height="400">
+  <img src="Image4.jpeg" height="400">
+  <img src="Image5.jpeg" height="400">
 </p>
 
 ---
