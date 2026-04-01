@@ -28,13 +28,14 @@ During development demos, the web interface was exposed with ngrok.
 
 ### Web UI
 
-<img width="1280" height="686" alt="MindVault Web UI" src="https://github.com/user-attachments/assets/28732caf-cebb-4b2d-8750-b5e9a0e4c782" />
+![MindVault Web UI](Image1.jpeg)
 
 ### Android UI
 
-<img width="240" height="580" alt="Android Screen 1" src="https://github.com/user-attachments/assets/27c6e2b6-7e4a-4d6c-b7f3-67df46333a6f" />
-<img width="240" height="580" alt="Android Screen 2" src="https://github.com/user-attachments/assets/cd8b2eb2-70aa-4c8a-9714-ce578957f591" />
-<img width="240" height="580" alt="Android Screen 3" src="https://github.com/user-attachments/assets/663f8e03-4307-4c1a-95ea-b65403a358cf" />
+![Android Screen 1](Image2.jpeg)
+![Android Screen 2](Image3.jpeg)
+![Android Screen 3](Image4.jpeg)
+![Android Screen 4](Image5.jpeg)
 
 ## Android App Scope
 
