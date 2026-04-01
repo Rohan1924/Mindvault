@@ -45,10 +45,11 @@ During development demos, the web interface was exposed with ngrok.
 ### 📱 Android UI
 
 <p align="center">
-  <img src="Image2.jpeg" height="350">
-  <img src="Image3.jpeg" height="350">
-  <img src="Image4.jpeg" height="350">
-  <img src="Image5.jpeg" height="350">
+  <img src="Image1.jpeg" height="320">
+  <img src="Image2.jpeg" height="320">
+  <img src="Image3.jpeg" height="320">
+  <img src="Image4.jpeg" height="320">
+  <img src="Image5.jpeg" height="320">
 </p>
 
 ---
