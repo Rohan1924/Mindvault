@@ -1,91 +1,124 @@
-# MindVault
+# 🧠 MindVault
 
 MindVault is a personal knowledge management demo with two interfaces:
 
-- A web demo for storing and querying information
-- A Kotlin Android app for mobile interaction
+- A web demo for storing and querying information  
+- A Kotlin Android app for mobile interaction  
 
-The project is focused on concept validation, UI behavior, and learning outcomes.
+The project focuses on **concept validation, UI behavior, and learning outcomes**.
 
-## Overview
+---
+
+## 🚀 Overview
 
 MindVault demonstrates a simple retrieval workflow:
 
-1. Store information
-2. Ask questions in natural language
-3. Receive AI-generated responses from stored context
+1. Store information  
+2. Ask questions in natural language  
+3. Receive AI-generated responses from stored context  
 
-During development demos, the web interface was exposed with ngrok.
+During development demos, the web interface was exposed using **ngrok**.
 
-## Key Features
+---
 
-- Data capture and retrieval demo flow
-- Simple AI-assisted query interface
-- Android client prototype in Kotlin (activity/XML based)
-- Clean UI-first approach for rapid iteration
+## ✨ Key Features
 
-## Screenshots
+- Data capture and retrieval demo flow  
+- Simple AI-assisted query interface  
+- Android client prototype in Kotlin (Activity + XML)  
+- Clean UI-first approach for rapid iteration  
 
-### Web UI
+---
 
-![MindVault Web UI](Image1.jpeg)
+## 📸 Screenshots
 
-### Android UI
+### 🌐 Web UI
 
-![Android Screen 1](Image2.jpeg)
-![Android Screen 2](Image3.jpeg)
-![Android Screen 3](Image4.jpeg)
-![Android Screen 4](Image5.jpeg)
+<p align="center">
+  <img src="Image1.jpeg" alt="MindVault Web UI" width="80%">
+</p>
 
-## Android App Scope
+---
+
+### 📱 Android UI
+
+<p align="center">
+  <img src="Image2.jpeg" width="22%">
+  <img src="Image3.jpeg" width="22%">
+  <img src="Image4.jpeg" width="22%">
+  <img src="Image5.jpeg" width="22%">
+</p>
+
+---
+
+## 📱 Android App Scope
 
 The Android module is intentionally lightweight and built to validate client-side UX:
 
-- Kotlin + Android SDK
-- Activity-based navigation
-- XML layouts
-- Basic interaction/testing screens
+- Kotlin + Android SDK  
+- Activity-based navigation  
+- XML layouts  
+- Basic interaction/testing screens  
 
-## Project Scope and Limits
+---
 
-This repository intentionally does not include internal backend/AI workflow details, production deployment setup, or sensitive service configuration.
+## 📌 Project Scope and Limits
 
-## Local Run Guidance
+This repository intentionally does **not include**:
 
-### Android
+- Internal backend / AI workflow details  
+- Production deployment setup  
+- Sensitive service configuration  
 
-1. Open the repository in Android Studio.
-2. Sync Gradle dependencies.
-3. Run on emulator/device.
+---
 
-### Web Demo
+## 🛠️ Local Run Guidance
+
+### 📱 Android
+
+1. Open the repository in Android Studio  
+2. Sync Gradle dependencies  
+3. Run on emulator/device  
+
+---
+
+### 🌐 Web Demo
 
 The original web demo setup is not fully packaged in this repository.
 
 To reproduce a similar flow:
 
-1. Run a local web frontend.
-2. Connect your own AI service endpoint.
-3. Optionally expose locally using ngrok for testing.
+1. Run a local web frontend  
+2. Connect your own AI service endpoint  
+3. Optionally expose locally using ngrok  
 
-## Security
+---
 
-- No credentials should be committed.
-- Keep secrets in local environment/config only.
-- Use sanitized or non-personal test data.
+## 🔐 Security
 
-## Contributing
+- No credentials should be committed  
+- Keep secrets in local environment/config only  
+- Use sanitized or non-personal test data  
+
+---
+
+## 🤝 Contributing
 
 Contributions are welcome for:
 
-- UI improvements
-- Documentation clarity
-- Code organization
+- UI improvements  
+- Documentation clarity  
+- Code organization  
 
-Please avoid adding secrets, internal service credentials, or private workflow details.
+Please avoid adding:
+- Secrets  
+- Internal service credentials  
+- Private workflow details  
 
-## Support
+---
 
-- [Android Developers](https://developer.android.com/docs)
-- [ngrok Docs](https://ngrok.com/docs)
-- GitHub Issues in this repository
+## 📬 Support
+
+- [Android Developers](https://developer.android.com/docs)  
+- [ngrok Docs](https://ngrok.com/docs)  
+- GitHub Issues in this repository  
