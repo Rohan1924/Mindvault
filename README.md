@@ -5,7 +5,7 @@ MindVault is a personal knowledge management demo with two interfaces:
 - A web demo for storing and querying information  
 - A Kotlin Android app for mobile interaction  
 
-The project focuses on **concept validation, UI behavior, and learning outcomes**.
+The project focuses on concept validation, UI behavior, and learning outcomes.
 
 ---
 
@@ -17,7 +17,7 @@ MindVault demonstrates a simple retrieval workflow:
 2. Ask questions in natural language  
 3. Receive AI-generated responses from stored context  
 
-During development demos, the web interface was exposed using **ngrok**.
+During development demos, the web interface was exposed with ngrok.
 
 ---
 
@@ -25,7 +25,7 @@ During development demos, the web interface was exposed using **ngrok**.
 
 - Data capture and retrieval demo flow  
 - Simple AI-assisted query interface  
-- Android client prototype in Kotlin (Activity + XML)  
+- Android client prototype in Kotlin (activity/XML based)  
 - Clean UI-first approach for rapid iteration  
 
 ---
@@ -35,7 +35,9 @@ During development demos, the web interface was exposed using **ngrok**.
 ### 🌐 Web UI
 
 <p align="center">
-  <img src="Image1.jpeg" alt="MindVault Web UI" height="350">
+  <img src="https://github.com/user-attachments/assets/28732caf-cebb-4b2d-8750-b5e9a0e4c782" 
+       alt="MindVault Web UI" 
+       style="max-height:350px; width:auto;">
 </p>
 
 ---
