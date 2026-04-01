@@ -1,55 +1,40 @@
 # 🧠 MindVault
 
-MindVault is a personal knowledge management demo with two interfaces:
+MindVault is a personal knowledge management Android application designed for storing and retrieving information using a clean and intuitive interface.
 
-- A web demo for storing and querying information  
-- A Kotlin Android app for mobile interaction  
-
-The project focuses on concept validation, UI behavior, and learning outcomes.
+The project focuses on **concept validation, UI behavior, and learning outcomes**.
 
 ---
 
 ## 🚀 Overview
 
-MindVault demonstrates a simple retrieval workflow:
+MindVault demonstrates a simple workflow:
 
 1. Store information  
-2. Ask questions in natural language  
-3. Receive AI-generated responses from stored context  
-
-During development demos, the web interface was exposed with ngrok.
+2. Navigate and manage stored data  
+3. Interact through a clean mobile UI  
 
 ---
 
 ## ✨ Key Features
 
 - Data capture and retrieval demo flow  
-- Simple AI-assisted query interface  
-- Android client prototype in Kotlin (activity/XML based)  
-- Clean UI-first approach for rapid iteration  
+- Clean and intuitive mobile UI  
+- Android client built in Kotlin (Activity/XML based)  
+- UI-first approach for rapid iteration  
 
 ---
 
 ## 📸 Screenshots
 
-### 🌐 Web UI
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/28732caf-cebb-4b2d-8750-b5e9a0e4c782" 
-       alt="MindVault Web UI" 
-       style="max-height:350px; width:auto;">
-</p>
-
----
-
 ### 📱 Android UI
 
 <p align="center">
-  <img src="Image1.jpeg" height="320">
-  <img src="Image2.jpeg" height="320">
-  <img src="Image3.jpeg" height="320">
-  <img src="Image4.jpeg" height="320">
-  <img src="Image5.jpeg" height="320">
+  <img src="./Image1.jpeg" height="320">
+  <img src="./Image2.jpeg" height="320">
+  <img src="./Image3.jpeg" height="320">
+  <img src="./Image4.jpeg" height="320">
+  <img src="./Image5.jpeg" height="320">
 </p>
 
 ---
@@ -65,17 +50,23 @@ The Android module is intentionally lightweight and built to validate client-sid
 
 ---
 
-## 📌 Project Scope and Limits
+## 📌 Project Scope
 
-This repository intentionally does **not include**:
+This repository is intended for:
 
-- Internal backend / AI workflow details  
-- Production deployment setup  
-- Sensitive service configuration  
+- Learning and experimentation  
+- UI/UX prototyping  
+- Concept validation  
+
+It does **not include**:
+
+- Production backend  
+- AI pipeline implementation  
+- Deployment setup  
 
 ---
 
-## 🛠️ Local Run Guidance
+## 🛠️ Setup Instructions
 
 ### 📱 Android
 
@@ -85,43 +76,29 @@ This repository intentionally does **not include**:
 
 ---
 
-### 🌐 Web Demo
-
-The original web demo setup is not fully packaged in this repository.
-
-To reproduce a similar flow:
-
-1. Run a local web frontend  
-2. Connect your own AI service endpoint  
-3. Optionally expose locally using ngrok  
-
----
-
 ## 🔐 Security
 
-- No credentials should be committed  
-- Keep secrets in local environment/config only  
-- Use sanitized or non-personal test data  
+- Do not commit credentials  
+- Use local configs/environment variables  
+- Use test/non-sensitive data  
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome for:
+Contributions are welcome:
 
 - UI improvements  
-- Documentation clarity  
-- Code organization  
+- Code cleanup  
+- Documentation  
 
 Please avoid adding:
 - Secrets  
-- Internal service credentials  
-- Private workflow details  
+- Private/internal services  
 
 ---
 
 ## 📬 Support
 
 - [Android Developers](https://developer.android.com/docs)  
-- [ngrok Docs](https://ngrok.com/docs)  
 - GitHub Issues in this repository  
